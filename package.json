@@ -1,0 +1,11 @@
+{
+  "name": "ai-ux-optimizer-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix ai-ux-optimizer\" \"npm run server --prefix ai-ux-server\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
